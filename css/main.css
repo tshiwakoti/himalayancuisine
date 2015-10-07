@@ -3,7 +3,7 @@ Theme Name: Restaurant
 Theme URI: http://themewagon.com/demo/Restaurant/
 Author: ThemeWagon
 Author URI: http://themewagon.com/
-Description: 
+Description:
 Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -14,9 +14,16 @@ Text Domain: restaurant
 GLOBAL
 =========================*/
 
+
+#map {
+    width: 1200px;
+    height: 400px;
+}
+
+
 .right-text{
     background: rgba(80, 160, 108, 0.53);
-    padding:15px 0 15px 25px; 
+    padding:15px 0 15px 25px;
     text-align: left !important;
 }
 
@@ -25,7 +32,7 @@ GLOBAL
 }
 
 *, *:before, *:after {
-    -moz-box-sizing: border-box;  
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
@@ -65,7 +72,7 @@ GLOBAL
 
 .icon-github:before {
     content: "\e601";
-}  
+}
 
 .icon-twitter:before {
     content: "\e602";
@@ -78,10 +85,10 @@ GLOBAL
 .carousel-slide{
     float: right !important;
     margin-right: -15px;
-} 
+}
 
 li.item{
-    position: relative; 
+    position: relative;
     width: 100%; /* for IE 6 */
 
     background: rgba(211, 15, 34, 1);
@@ -97,7 +104,7 @@ li.item{
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-     
+
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
@@ -175,19 +182,19 @@ AWARD BANNERS
 }
 
 
-.opm-ribbon { 
-    position:absolute; 
-    top:300px; 
-    left:0px; 
-    z-index:1; 
-} 
+.opm-ribbon {
+    position:absolute;
+    top:300px;
+    left:0px;
+    z-index:1;
+}
 
-.opm-ribbon a { 
-    width:65px; 
-    height:85px; 
-    text-indent:-9999px; 
-    display:block; 
-    background:url('../../s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat; 
+.opm-ribbon a {
+    width:65px;
+    height:85px;
+    text-indent:-9999px;
+    display:block;
+    background:url('../../s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
 }
 
 
@@ -228,7 +235,7 @@ INTRO CONTAINER
     background: url('../images/steak.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
-    background-position: center;  
+    background-position: center;
 }
 
 
@@ -255,9 +262,9 @@ INTRO CONTAINER
  }
 
 .second-title {
-    font-weight: lighter; 
-    font-size: 30px; 
-    font-style: italic; 
+    font-weight: lighter;
+    font-size: 30px;
+    font-style: italic;
     text-transform: capitalize;
 }
 
@@ -297,36 +304,36 @@ IMAGE INTRO BANNER CONTENT
 }
 
 .background_content:nth-of-type(2) {
-    background: url('../images/beer.jpg') no-repeat center center; 
+    background: url('../images/beer.jpg') no-repeat center center;
     background-size: cover;
     background-position: 70% 50%;
 }
 
 .background_content:nth-of-type(4) {
-    background: url('../images/bread.jpg') no-repeat center center; 
+    background: url('../images/bread.jpg') no-repeat center center;
     background-size: cover;
     background-position: 70% 50%;
 }
  #featured.background_content{
-    background: url('../images/featured.jpg') no-repeat center center; 
+    background: url('../images/featured.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
  #pricing.background_content{
-    background: url('../images/pricing.jpg') no-repeat center center; 
+    background: url('../images/pricing.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 #reservation.background_content{
-    background: url('../images/reservation-seat.jpg') no-repeat center center; 
+    background: url('../images/reservation-seat.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 #bread.background_content{
-    background: url('../images/breakfast.jpg') no-repeat center center; 
+    background: url('../images/breakfast.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -345,7 +352,7 @@ DESCRIPTION BODY CONTENT
     z-index: 99;
     position: relative;
     background: white;
-    text-align: center; 
+    text-align: center;
 }
 .description_content1 {
     width: 100%;
@@ -354,7 +361,7 @@ DESCRIPTION BODY CONTENT
     z-index: 99;
     position: relative;
     background: white;
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -409,7 +416,7 @@ FIRST FOOTER CONTENT
     padding: 1px 55px;
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .first_footer {
         background-color: #1E1E1E;
         width: 100%;
@@ -436,7 +443,7 @@ FIRST FOOTER CONTENT
     margin: 40px 0 0 0;
 }
 
-.social_info, 
+.social_info,
 .social_icons {
     margin: 18px 0 50px 0;
 }
@@ -608,7 +615,7 @@ SECOND FOOTER CONTENT
     max-height: 200px;
     max-width: 100%;
 }
-  
+
 /* Generic Button Styles */
 
 .button{
@@ -657,7 +664,7 @@ SECOND FOOTER CONTENT
 
 /*.form-btn1{
     margin-left: -15px;
-    
+
 }*/
 
 .form-btn:hover{
@@ -717,7 +724,7 @@ MEDIA QUERIES TABLET
 =========================*/
 
 
-@media (min-width: 400px) { 
+@media (min-width: 400px) {
     .starter_container {
         height: 100%;
     }
@@ -760,7 +767,7 @@ MEDIA QUERIES TABLET
         -moz-transition: border-color 0.5s ease-in-out;
         -o-transition: border-color 0.5s ease-in-out;
         -ms-transition: border-color 0.5s ease-in-out;
-        transition: border-color 0.5s ease-in-out;  
+        transition: border-color 0.5s ease-in-out;
         background-size: 22px; /*This is based off of width*/
     }
 
@@ -775,8 +782,8 @@ MEDIA QUERIES TABLET
 MEDIA QUERIES TABLET
 =========================*/
 
-@media (min-width: 660px) { 
-  
+@media (min-width: 660px) {
+
     .starter_container {
         height: 100%;
     }
@@ -849,7 +856,7 @@ MEDIA QUERIES TABLET
         border: 5px solid rgba(0,0,0,0);
         display: inline-block;
         width: 45px;
-        height: 45px;  
+        height: 45px;
         background-size: 30px; /*This is based off of width*/
     }
 
@@ -1123,7 +1130,7 @@ MEDIA QUERIE DESKTOP
 =========================*/
 
 
-@media (min-width: 1100px) { 
+@media (min-width: 1100px) {
 
     .starter_container {
         background-attachment: fixed;
@@ -1278,7 +1285,7 @@ MEDIA QUERIE DESKTOP
     .image_box_story li:nth-of-type(3),
     .image_box_story li:nth-of-type(4) {
         background-size: cover;
-    } 
+    }
 
 
     .image_box_beer,

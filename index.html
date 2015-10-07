@@ -15,6 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBbGmpRWGixnSwkPrqU4ipm5yKLtRp6Qnk&sensor=false" type="text/javascript"></script>
 </head>
 
 <body>
@@ -323,9 +325,31 @@
     </footer>
 
 
-    <div id="contact"  class="map">
+    <div id="map"></div>
+
+    <script>
+        function initialize() {
+          var mapCanvas = document.getElementById('map');
+          var mapOptions = {
+            center: new google.maps.LatLng(37.976, -122.0357),
+            zoom: 13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          }
+
+          var marker = new google.maps.Marker({
+            position: (37.976, -122.0357),
+            map: map,
+        });
+
+        marker.setMap(map);
+          var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <!-- <div id="contact"  class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d26081603.29442047!2d-95.677068!3d37.0625!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1421239704485" width="100%" height="400px" frameborder="0" style="border:0"></iframe>
-    </div>
+    </div> -->
 
     <div class="container">
         <div class="row">
@@ -361,6 +385,13 @@
                 </div><!-- End Inner -->
             </div>
         </div>
+    </div>
+
+
+    <div id = "yelp">
+
+      <h5> This is the Yelp Section </h5>
+
     </div>
 
     <footer class="sub_footer">
