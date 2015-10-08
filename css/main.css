@@ -16,7 +16,7 @@ GLOBAL
 
 
 #map {
-    width: 900px;
+    width: 1100px;
     height: 400px;
 }
 
@@ -163,7 +163,7 @@ h1, h2, p, span, a {
 /*========================
 AWARD BANNERS
 =========================*/
-.top{
+/*.top{
     margin-top: -10px !important;
 }
 
@@ -196,7 +196,7 @@ AWARD BANNERS
     display:block;
     background:url('../../s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
 }
-
+*/
 
 /*========================
 NAV
@@ -971,33 +971,6 @@ MEDIA QUERIES TABLET
         background: url('../images/bread2.jpg') no-repeat center center;
         background-size: cover;
     }
-
-
-    .image_box_beer {
-        height: 495px;
-        max-width: 500px;
-        margin: 45px auto 0 auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_beer li {
-        width: 500px;
-        height: 495px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_beer li:nth-of-type(1) {
-        background: url('../images/beer_spec.jpg') no-repeat center center;
-        background-size: cover;
-    }
-
 
     .image_box_bread {
         height: 495px;
