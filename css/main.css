@@ -327,7 +327,7 @@ IMAGE INTRO BANNER CONTENT
     background-attachment: fixed;
 }
 #reservation.background_content{
-    background: url('../images/reservation-seat.jpg') no-repeat center center;
+    background: url('http://s3-media1.fl.yelpcdn.com/bphoto/Oy7VPZnDsXMWmpb9so2wiQ/o.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

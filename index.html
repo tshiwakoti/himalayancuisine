@@ -16,7 +16,13 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="favicon-1.ico" type="image/x-icon">
     <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBbGmpRWGixnSwkPrqU4ipm5yKLtRp6Qnk&sensor=false" type="text/javascript"></script>
+    <!-- <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBbGmpRWGixnSwkPrqU4ipm5yKLtRp6Qnk&sensor=false" type="text/javascript"></script> -->
+
+    <style>
+      .text-heart {
+        color: #e74c3c;
+      }
+    </style>
 </head>
 
 <body>
@@ -39,10 +45,10 @@
                 <ul class="nav navbar-nav main-nav  clear navbar-right ">
                     <li><a class="active color_animation" href="#top">WELCOME</a></li>
                     <li><a class="color_animation" href="#story">ABOUT US</a></li>
-                    <li><a class="color_animation" href="#bread">BUFFET</a></li>
+                    <li><a class="color_animation" href="#buffet">BUFFET</a></li>
                     <li><a class="color_animation" href="#featured">FEATURED</a></li>
-                    <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
-                    <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                    <li><a class="color_animation" href="#reservation">ORDER ONLINE</a></li>
+                    <li><a class="color_animation" href="#yelp"><i class="fa fa-heart text-heart"></i> YELP</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -63,8 +69,29 @@
         </div>
     </div>
 
+    <br>
+    <br>
 
-    <section id="story" class="description_content">
+    <div  class="container" id="story">
+      <div class="col-md-6">
+        <center>
+          <h1>About us</h1>
+          <div class="fa fa-cutlery fa-2x"></div>
+        </center>
+        <p> Our Chefs have decades of experiences preparing great food with
+          herbs and species from himalayas and adding them to give food not only deliciousness
+          but also the great smell that will not only fulfil your hunger but also the satisfation
+          and pleasure while eating food that can't be received anywhere else.
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        <img src="images/momo.png" class="img-responsive" alt="" />
+      </div>
+    </div>
+
+    <hr>
+    <!-- <section id="story" class="description_content">
         <div class="limit">
             <div class="description_body margin-right">
                 <h1>About us</h1>
@@ -84,17 +111,17 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
-
+<!--
    <section id="bread" class="background_content">
      <h1>Our Breakfast <span>Menu</span></h1>
-   </section>
+   </section> -->
 
 
-    <section class="description_content">
+    <section id="buffet" class="description_content">
         <div class="limit">
             <div class="description_body margin-right">
                 <h1>OUR BUFFET</h1>
@@ -163,11 +190,14 @@
 
 
     <section id="reservation" class="background_content">
-        <h1>Reserve A Table!</h1>
+        <h1>Order online!</h1>
+        <br>
+
+        <h1><i class="fa fa-phone"></i> 111-111-1111</h1>
     </section>
 
 
-    <section class="description_content">
+    <section class="description_content" id="yelp">
         <div class="limit">
             <div class="inner contact">
                 <!-- Form Area -->
@@ -178,47 +208,25 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-8 col-md-6 col-xs-12">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-xs-6">
-                                            <!-- Name -->
-                                            <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
-                                            <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
-                                            <input type="text" name="state" id="state" required="required" class="form" placeholder="State" />
-                                            <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-xs-6">
-                                            <!-- Name -->
-                                            <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
-                                            <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
-                                            <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
-                                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                                        </div>
-
-                                        <div class="col-xs-12">
-                                            <!-- Send Button -->
-                                            <button type="submit" id="submit" name="submit" class=" form-btn form-btn1 semibold">Reserve</button>
-                                        </div>
-
-                                    </div>
+                                <div class="col-lg-8 col-md-4 col-xs-12">
+                                  <a class="embedly-card" href="http://www.yelp.com/biz/himalayan-cuisine-concord">
+                                    Himalayan Cuisine - Concord, CA
+                                  </a>
+                                  <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-xs-12">
-                                    <!-- Message -->
-                                    <div class="right-text">
+                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                  <div class="right-text">
+                                    <h2>Hours</h2><hr>
+                                    <p>Mon to Fri: 7:30 AM - 11:30 AM</p>
+                                    <p>Sat & Sun: 8:00 AM - 9:00 AM</p>
+                                    <p>Lunch</p>
 
-                                        <h2>Hours</h2><hr>
-                                        <p>Mon to Fri: 7:30 AM - 11:30 AM</p>
-                                        <p>Sat & Sun: 8:00 AM - 9:00 AM</p>
-                                        <p>Lunch</p>
-
-                                        <p>Mon to Fri: 12:00 PM - 5:00 PM</p>
-                                        <p>Dinner</p>
-                                        <p>Mon to Sat: 6:00 PM - 1:00 AM</p>
-                                        <p>Sun: 5:30 PM - 12:00 AM</p>
-
-                                    </div>
+                                    <p>Mon to Fri: 12:00 PM - 5:00 PM</p>
+                                    <p>Dinner</p>
+                                    <p>Mon to Sat: 6:00 PM - 1:00 AM</p>
+                                    <p>Sun: 5:30 PM - 12:00 AM</p>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -233,9 +241,32 @@
     </section>
 
 
+<!--
+    <div class="container">
+      <div class="col-md-12">
+        <div class="col-md-4">
+          <h3 class='text-center'>Yelp</h3>
+          <div id='yelpwidget'>
+            <script>(function() { var s = document.createElement("script");s.async = true;s.onload = s.onreadystatechange = function(){getYelpWidget("himalayan-cuisine-concord","300","RED","y","y","5");};s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})();</script>
+          </div>
+        </div>
 
+        <div class="col-md-4">
+          <h3 class='text-center'>Contact <br> 111-111-1111</h3>
 
-    <footer class="first_footer">
+        </div>
+
+        <div class="col-md-4">
+          <h3 class='text-center'>Social</h3>
+          <ul class="social_icons">
+            <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
+            <li><a class="icon-mail color_animation" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div> -->
+    <!-- <footer class="first_footer">
         <section class="limit">
             <div class="come_in">
                 <span class="social_heading"></span>
@@ -254,12 +285,17 @@
                 <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(232) 883-335-6524</a></span>
             </div>
         </section>
-    </footer>
+    </footer> -->
 
 
-    <div id="map"></div>
+    <section id="map">
+      <center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.029246377876!2d-122.0357828849606!3d37.97644677972323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80856726113cd841%3A0x3cb2e9b5ce153e9f!2sHIMALAYAN+CUISINE!5e0!3m2!1sen!2sus!4v1444603603224" width="1300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </center>
+    </section>
 
-    <script>
+
+    <!-- <script>
         function initialize() {
           var mapCanvas = document.getElementById('map');
           var mapOptions = {
@@ -277,54 +313,16 @@
           var map = new google.maps.Map(mapCanvas, mapOptions)
         }
         google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    </script> -->
 
     <!-- <div id="contact"  class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d26081603.29442047!2d-95.677068!3d37.0625!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1421239704485" width="100%" height="400px" frameborder="0" style="border:0"></iframe>
     </div> -->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="inner contact">
-                    <!-- Form Area -->
-                    <div class="contact-form">
-                        <!-- Form -->
-                        <form id="contact-us" method="post" action="contact.php">
-                            <!-- Left Inputs -->
-                            <div class="col-md-6 ">
-                                <!-- Name -->
-                                <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-                                <!-- Email -->
-                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
-                                <!-- Subject -->
-                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                            </div><!-- End Left Inputs -->
-                            <!-- Right Inputs -->
-                            <div class="col-md-6">
-                                <!-- Message -->
-                                <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-                            </div><!-- End Right Inputs -->
-                            <!-- Bottom Submit -->
-                            <div class="relative fullwidth col-xs-12">
-                                <!-- Send Button -->
-                                <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
-                            </div><!-- End Bottom Submit -->
-                            <!-- Clear -->
-                            <div class="clear"></div>
-                        </form>
-                    </div><!-- End Contact Form Area -->
-                </div><!-- End Inner -->
-            </div>
-        </div>
-    </div>
 
 
-    <div id = "yelp">
 
-      <h5> This is the Yelp Section </h5>
 
-    </div>
 
     <footer class="sub_footer">
         <section class="limit">
