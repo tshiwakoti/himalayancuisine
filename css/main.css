@@ -232,7 +232,7 @@ INTRO CONTAINER
     padding: 0;
     min-width: 100%;
     height: 100%;
-    background: url('../images/steak.jpg') no-repeat center center;
+    background: url('../images/restaurant_full.png') no-repeat center center;
     background-size: cover;
     text-align: center;
     background-position: center;
@@ -333,7 +333,7 @@ IMAGE INTRO BANNER CONTENT
     background-attachment: fixed;
 }
 #bread.background_content{
-    background: url('../images/breakfast.jpg') no-repeat center center;
+    background: url('../images/restaurant_full.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -898,7 +898,7 @@ MEDIA QUERIES TABLET
 
 
     .image_box_story {
-        height: 495px;
+        height: 600px;
         max-width: 500px;
         margin: 0 auto 45px auto;
         padding: 0;
@@ -906,6 +906,7 @@ MEDIA QUERIES TABLET
         vertical-align: middle;
         text-align: center;
         background-size: cover;
+        margin-top: 100px;
     }
 
     .image_box_story2 {
