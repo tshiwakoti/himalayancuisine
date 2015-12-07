@@ -310,7 +310,7 @@ IMAGE INTRO BANNER CONTENT
 }
 
 .background_content:nth-of-type(4) {
-    background: url('../images/bread.jpg') no-repeat center center;
+    background: url('../images/buffet1.jpg') no-repeat center center;
     background-size: cover;
     background-position: 70% 50%;
 }
@@ -963,13 +963,13 @@ MEDIA QUERIES TABLET
     }
 
     .image_box_story1 li:nth-of-type(1) {
-        background: url('../images/bread1.jpg') no-repeat center center;
+        background: url('../images/buffet1.jpg') no-repeat center center;
         background-size: cover;
         margin-right: 20px;
     }
 
     .image_box_story1 li:nth-of-type(2) {
-        background: url('../images/bread2.jpg') no-repeat center center;
+        background: url('../images/buffet2.jpg') no-repeat center center;
         background-size: cover;
     }
 
